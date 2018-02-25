@@ -11,10 +11,10 @@ public class Logout extends BrowserFactory {
     LoginPage loginPage = new LoginPage();
     CommonPage commonPage = new CommonPage();
 
-    @Test(dataProvider = "emailAndPass")
-    public void login(String email, String pass){
-        loginPage.open();
-        loginPage.login(email, pass);
+    @Test
+    public void login(){
+        loginPage.loginWithCookies();
+        driver().get("https://trello.com/");
 
         commonPage.logOut();
 

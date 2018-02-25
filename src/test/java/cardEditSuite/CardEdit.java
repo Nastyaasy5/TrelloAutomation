@@ -12,11 +12,9 @@ public class CardEdit extends BrowserFactory{
     BoardsPage boardsPage = new BoardsPage();
     Card card = new Card();
 
-    @Test(dataProvider = "emailAndPass")
-    public void addMember(String email, String login) {
-        loginPage.open();
-        loginPage.login(email, login);
-        boardsPage.waitForPageToBeLoaded();
+    @Test
+    public void addMember() {
+        loginPage.loginWithCookies();
 
         driver().get("https://trello.com/c/mXgWKGIZ/1-testcard");
         int membersBefore = card.getAddedMembers();
@@ -28,11 +26,9 @@ public class CardEdit extends BrowserFactory{
         //TBD: Fails if no added members.
     }
 
-    @Test(dataProvider = "emailAndPass")
-    public void removeMember(String email, String login) {
-        loginPage.open();
-        loginPage.login(email, login);
-        boardsPage.waitForPageToBeLoaded();
+    @Test
+    public void removeMember() {
+        loginPage.loginWithCookies();
         driver().get("https://trello.com/c/mXgWKGIZ/1-testcard");
         int membersBefore = card.getAddedMembers();
         card.openMembersWindow();
@@ -43,13 +39,11 @@ public class CardEdit extends BrowserFactory{
         //TBD: Fails if no added members.
     }
 
-    @Test(dataProvider = "emailAndPass")
-    public void addComment(String email, String login){
+    @Test
+    public void addComment(){
         String comment = "Some text is here!";
 
-        loginPage.open();
-        loginPage.login(email, login);
-        boardsPage.waitForPageToBeLoaded();
+        loginPage.loginWithCookies();
         driver().get("https://trello.com/c/mXgWKGIZ/1-testcard");
         card.fillCommentFld(comment);
         card.save();

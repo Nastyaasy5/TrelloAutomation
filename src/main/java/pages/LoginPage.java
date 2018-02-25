@@ -2,8 +2,13 @@ package pages;
 
 import core.Elem;
 import core.MethodsFactory;
+import helpers.SerializationWorker;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
 import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import java.util.Set;
 
 public class LoginPage extends MethodsFactory {
 
@@ -21,5 +26,24 @@ public class LoginPage extends MethodsFactory {
         emailFld.type(email);
         passwordFld.type(password);
         loginBtn.click();
+    }
+
+    public void saveCookies(String email, String pass) throws InterruptedException {
+        // Save Cookies to file
+        open();
+        login(email, pass);
+        Thread.sleep(1000);
+
+        Set<Cookie> cookies = driver().manage().getCookies();
+        SerializationWorker.serializeStorage(cookies, "trelloCookies");
+    }
+
+    public void loginWithCookies() {
+        open();
+
+        Set<Cookie> cookies = (Set<Cookie>) SerializationWorker.deserializeStorage("trelloCookies");
+        for(Cookie cookie : cookies){
+            driver().manage().addCookie(cookie);
+        }
     }
 }

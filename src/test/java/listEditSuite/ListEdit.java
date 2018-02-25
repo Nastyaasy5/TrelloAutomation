@@ -11,14 +11,11 @@ import pages.windows.ListActionsWnd;
 public class ListEdit extends BrowserFactory{
     LoginPage loginPage = new LoginPage();
     BoardPage boardPage = new BoardPage();
-    BoardsPage boardsPage = new BoardsPage();
     ListActionsWnd listActionsWnd = new ListActionsWnd();
 
-    @Test(dataProvider = "emailAndPass")
-    public void copyList(String email, String pass){
-        loginPage.open();
-        loginPage.login(email, pass);
-        boardsPage.waitForPageToBeLoaded();
+    @Test
+    public void copyList() {
+        loginPage.loginWithCookies();
         driver().get("https://trello.com/b/uUqn0ZdY/listsfordeleting");
 
         int listsBefore = boardPage.getAllLists();
@@ -29,11 +26,9 @@ public class ListEdit extends BrowserFactory{
                 "List was not copied!");
     }
 
-    @Test(dataProvider = "emailAndPass")
-    public void archiveList(String email, String pass){
-        loginPage.open();
-        loginPage.login(email, pass);
-        boardsPage.waitForPageToBeLoaded();
+    @Test
+    public void archiveList(){
+        loginPage.loginWithCookies();
         driver().get("https://trello.com/b/uUqn0ZdY/listsfordeleting");
 
         int listsBefore = boardPage.getAllLists();
