@@ -1,9 +1,13 @@
 package boardSuite;
 
+import api.TrelloApi;
 import core.BrowserFactory;
+import helpers.DateHelper;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.*;
+
+import java.io.IOException;
 
 public class BoardEdit extends BrowserFactory {
 
@@ -11,8 +15,20 @@ public class BoardEdit extends BrowserFactory {
     BoardPage boardPage = new BoardPage();
     CommonPage commonPage = new CommonPage();
 
-    @Test(dataProvider = "emailAndPass")
-    public void starTheBoard(String email, String pass){
+    @Test
+    public void createBoard() throws IOException {
+        loginPage.loginWithCookies();
+        driver().get("https://trello.com/");
+
+        TrelloApi trelloApi = new TrelloApi();
+        DateHelper dateHelper = new DateHelper();
+
+        String newBoard = trelloApi.createBoard("NewBoard " + dateHelper.getCurrentDateTime());
+        System.out.println(newBoard);
+    }
+
+    @Test
+    public void starTheBoard(){
         loginPage.loginWithCookies();
         driver().get("https://trello.com/b/uUqn0ZdY/listsfordeleting");
         boardPage.starTheBoard();
