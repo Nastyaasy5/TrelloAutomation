@@ -24,7 +24,7 @@ public class Login extends BrowserFactory {
        Assert.assertTrue(boardsPage.boardSection.isPresent(), "Board page is not opened!");
     }
 
-    @Test(dataProvider = "emailAndPass")
+    @Test(dataProvider = "PemailAndPass")
     public void getCookiesForFutureLogin(String email, String pass) throws InterruptedException {
         loginPage.saveCookies(email, pass);
     }
