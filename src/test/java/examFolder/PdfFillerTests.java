@@ -49,7 +49,13 @@ public class PdfFillerTests extends BrowserFactory{
     @Test
     public void createFolder() {
         loginPage.loginWithCookies();
-        //.... TBD
+        driver().get("https://www.pdffiller.com/en/forms.htm");
+
+        int foldersBefore = mainPage.getAllFoldersOnPage();
+        mainPage.createFolder();
+        int foldersAfter = mainPage.getAllFoldersOnPage();
+
+        Assert.assertTrue(foldersBefore<foldersAfter, "Folder was not created!");
     }
 
 }

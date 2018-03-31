@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90096350-7567-40e0-bbf0-55af233a9883" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/core/BrowserFactory.class" afterPath="$PROJECT_DIR$/target/classes/core/BrowserFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/apiTests/BoardEditApi.class" afterPath="$PROJECT_DIR$/target/test-classes/apiTests/BoardEditApi.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/loginLogoutSuite/Login.class" afterPath="$PROJECT_DIR$/target/test-classes/loginLogoutSuite/Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/core/BrowserFactory.java" afterPath="$PROJECT_DIR$/src/main/java/core/BrowserFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/loginLogoutSuite/Login.java" afterPath="$PROJECT_DIR$/src/test/java/loginLogoutSuite/Login.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pdfFiller/pages/MainPage.java" afterPath="$PROJECT_DIR$/src/main/java/pdfFiller/pages/MainPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/examFolder/PdfFillerTests.java" afterPath="$PROJECT_DIR$/src/test/java/examFolder/PdfFillerTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,7 +17,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -34,8 +30,8 @@
       <file leaf-file-name="PdfFillerTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/examFolder/PdfFillerTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="51" column="18" lean-forward="false" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+            <state relative-caret-position="77">
+              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,15 +39,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pdfFiller/pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="17" column="57" lean-forward="false" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="121" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#913#914#0" expanded="true" />
-                <element signature="e#955#956#0" expanded="true" />
+                <element signature="e#1213#1214#0" expanded="true" />
+                <element signature="e#1255#1256#0" expanded="true" />
+                <element signature="e#1293#1294#0" expanded="true" />
+                <element signature="e#1338#1339#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,7 +68,7 @@
       <file leaf-file-name="TasksFromLevel2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/examFolder/TasksFromLevel2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
+            <state relative-caret-position="17">
               <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
               <folding />
             </state>
@@ -387,6 +385,10 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -411,6 +413,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrelloAutomation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrelloAutomation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -468,35 +492,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.PdfFillerTests.duplicateFile">
-    <configuration default="false" name="D:/Nastya/TrelloAutomation/xmls/PdFillerSuite.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="TrelloAutomation" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmls/PdFillerSuite.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="TestNG.PdfFillerTests.createFolder">
     <configuration default="false" name="PdfFillerTests.logout" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -610,6 +606,39 @@
       <option name="PACKAGE_NAME" value="examFolder" />
       <option name="MAIN_CLASS_NAME" value="examFolder.PdfFillerTests" />
       <option name="METHOD_NAME" value="duplicateFile" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="PdfFillerTests.createFolder" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="examFolder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TrelloAutomation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="examFolder" />
+      <option name="MAIN_CLASS_NAME" value="examFolder.PdfFillerTests" />
+      <option name="METHOD_NAME" value="createFolder" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -834,19 +863,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.D:/Nastya/TrelloAutomation/xmls/PdFillerSuite.xml" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.PdfFillerTests.logout" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.LoginWithCookies.loginWithCookies" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.PdfFillerTests.loginWithCookies" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.PdfFillerTests.duplicateFile" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.PdfFillerTests.logout" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.LoginWithCookies.loginWithCookies" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.PdfFillerTests.loginWithCookies" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.PdfFillerTests.duplicateFile" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.PdfFillerTests.createFolder" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.PdfFillerTests.duplicateFile" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.PdfFillerTests.createFolder" />
         <item index="1" class="java.lang.String" itemvalue="TestNG.PdfFillerTests.loginWithCookies" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.PdfFillerTests.logout" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.LoginWithCookies.loginWithCookies" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.D:/Nastya/TrelloAutomation/xmls/PdFillerSuite.xml" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.PdfFillerTests.duplicateFile" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.PdfFillerTests.logout" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.LoginWithCookies.loginWithCookies" />
       </list>
     </recent_temporary>
   </component>
@@ -864,11 +893,14 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PdfFillerTests_duplicateFile - 2018.03.31 at 16h 33m 13s.xml">
-      <configuration name="PdfFillerTests.duplicateFile" configurationId="TestNG" />
+    <history-entry file="PdfFillerTests_createFolder - 2018.03.31 at 17h 19m 24s.xml">
+      <configuration name="PdfFillerTests.createFolder" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PdfFillerTests_duplicateFile - 2018.03.31 at 16h 34m 07s.xml">
-      <configuration name="PdfFillerTests.duplicateFile" configurationId="TestNG" />
+    <history-entry file="PdfFillerTests_createFolder - 2018.03.31 at 17h 20m 33s.xml">
+      <configuration name="PdfFillerTests.createFolder" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PdfFillerTests_createFolder - 2018.03.31 at 17h 22m 29s.xml">
+      <configuration name="PdfFillerTests.createFolder" configurationId="TestNG" />
     </history-entry>
     <history-entry file="PdfFillerTests_duplicateFile - 2018.03.31 at 16h 43m 49s.xml">
       <configuration name="PdfFillerTests.duplicateFile" configurationId="TestNG" />
@@ -879,20 +911,17 @@
     <history-entry file="PdfFillerTests_duplicateFile - 2018.03.31 at 16h 50m 48s.xml">
       <configuration name="PdfFillerTests.duplicateFile" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PdfFillerTests_loginWithCookies - 2018.03.31 at 16h 28m 16s.xml">
-      <configuration name="PdfFillerTests.loginWithCookies" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PdfFillerTests_loginWithCookies - 2018.03.31 at 16h 32m 05s.xml">
-      <configuration name="PdfFillerTests.loginWithCookies" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="PdfFillerTests_loginWithCookies - 2018.03.31 at 16h 43m 07s.xml">
       <configuration name="PdfFillerTests.loginWithCookies" configurationId="TestNG" />
     </history-entry>
     <history-entry file="PdfFillerTests_loginWithCookies - 2018.03.31 at 16h 49m 42s.xml">
       <configuration name="PdfFillerTests.loginWithCookies" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PdfFillerTests_logout - 2018.03.31 at 16h 07m 57s.xml">
-      <configuration name="PdfFillerTests.logout" configurationId="TestNG" />
+    <history-entry file="PdfFillerTests_loginWithCookies - 2018.03.31 at 17h 18m 45s.xml">
+      <configuration name="PdfFillerTests.loginWithCookies" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PdfFillerTests_loginWithCookies - 2018.03.31 at 17h 21m 51s.xml">
+      <configuration name="PdfFillerTests.loginWithCookies" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -905,7 +934,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="746" extended-state="7" />
+    <frame x="-4" y="-4" width="1374" height="746" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -915,10 +944,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3512605" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3512605" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3512605" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1274,14 +1303,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/examFolder/LoginWithCookies.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/examFolder/TasksFromLevel2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/apiTests/BoardEditApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -1301,33 +1322,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pdfFiller/pages/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/examFolder/PdfFillerTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="51" column="18" lean-forward="false" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/examFolder/TasksFromLevel2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/examFolder/PdfFillerTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pdfFiller/pages/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="57" lean-forward="false" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="121" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1338#1339#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
